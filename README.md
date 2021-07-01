@@ -1,11 +1,7 @@
 # Moriarity
 
-<<<<<<< HEAD
 <p>The Application is aiming towards an IDEAL inventory management Application using Flutter and MongoDb with cross platform combatibility and contributing the application to the Open Source Community
 </p>
-=======
-A new Flutter project for inventory management.
->>>>>>> 926c19c9219c50e31ac6ff9c9c343182a72fd4c0
 
 ---
 
