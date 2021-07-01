@@ -1,6 +1,6 @@
-# moriarity
+# Moriarity
 
-A new Flutter project.
+A new Flutter project for inventory management.
 
 ## Getting Started
 
