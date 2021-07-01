@@ -1,16 +1,56 @@
-# moriarity
+# Moriarity
 
-A new Flutter project.
+<p>The Application is aiming towards an IDEAL inventory management Application using Flutter and MongoDb with cross platform combatibility and contributing the application to the Open Source Community
+</p>
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## End Goals
 
-A few resources to get you started if this is your first Flutter project:
+- [ ] Invoice sharing throughout platform.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [ ] A Reliable Invoice Register.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [ ] Forming a Team with different access levels.
+
+- [ ] Easy analysis of instock and out stocks.
+  
+---
+
+### Basic Goal
+
+- [ ] Proper login validations.
+
+- [ ] Acess to every staffs for easier inventory management.
+
+- [ ] A flow for users to login using their username/chat handles.
+
+- [ ] A flow for users to create private chat rooms.
+
+- [ ] A flow to display a list of users who are online and have interacted earlier with you.
+
+- [ ] A flow for users to mute and block messages from specific username/chat handles.
+
+- [ ] A flow for users to copy paste/forward recieved messaged to users of other chat hadles.
+
+---
+
+## Milestone 1 
+
+    - A QR code / Bar code scanner integration.
+    - Editable list of items.
+    - Item Search.
+    - Proper database design to store the data.    
+
+
+## Team
+
+[**Anand Antony**](https://github.com/anandantony)
+
+[**C m3 Codin**](https://github.com/C-m3-Codin)
+
+[**Sarath**](https://github.com/sarathithikkatt)
+
+[**Sonu**](https://github.com/sonu-simon)
+
+
