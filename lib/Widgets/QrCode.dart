@@ -2,6 +2,8 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:moriarity/provider/QrValueProvider.dart';
+import 'package:provider/provider.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 
 class QRViewExample extends StatefulWidget {
@@ -27,6 +29,7 @@ class _QRViewExampleState extends State<QRViewExample> {
 
   @override
   Widget build(BuildContext context) {
+    final QrObj = Provider.of<QrVal>(context);
     return Scaffold(
       body: Column(
         children: <Widget>[
@@ -39,8 +42,20 @@ class _QRViewExampleState extends State<QRViewExample> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
                   if (result != null)
-                    Text(
-                        'Barcode Type: ${describeEnum(result!.format)}   Data: ${result!.code}')
+                    Column(
+                      children: [
+                        Text(
+                            'Barcode Type: ${describeEnum(result!.format)}   Data: ${result!.code}'),
+                        ElevatedButton(
+                            onPressed: () {
+                              // String val=result!.code;
+                              QrObj.newQrValue(result!.code);
+
+                              Navigator.pop(context);
+                            },
+                            child: Text("Submit value for search"))
+                      ],
+                    )
                   else
                     Text('Scan a code'),
                   Row(
