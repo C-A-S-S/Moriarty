@@ -47,7 +47,7 @@
 
 [**Anand Antony**](https://github.com/anandantony)
 
-[**C m3 Codin**](https://github.com/C-m3-Codin)
+[**Cyril**](https://github.com/C-m3-Codin)
 
 [**Sarath**](https://github.com/sarathithikkatt)
 
