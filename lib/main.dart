@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
-import 'package:moriarity/Widgets/QrCode.dart';
-=======
+// import 'package:moriarity/Widgets/QrCode.dart';
 import 'package:moriarity/billing.dart';
->>>>>>> cfba1daf8af48cbdfdf6a09432d3e40525351d17
 
 void main() {
   runApp(MyApp());
